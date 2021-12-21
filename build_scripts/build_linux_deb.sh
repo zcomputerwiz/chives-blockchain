@@ -25,8 +25,8 @@ fi
 echo "Chives Installer Version is: $CHIVES_INSTALLER_VERSION"
 
 echo "Installing npm and electron packagers"
-sudo npm install electron-packager -g
-sudo npm install electron-installer-debian -g
+npm install electron-packager -g
+npm install electron-installer-debian -g
 
 echo "Create dist/"
 rm -rf dist
